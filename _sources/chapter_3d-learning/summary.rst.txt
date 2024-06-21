@@ -1,0 +1,13 @@
+
+总结
+----
+
+-  三维表达
+
+-  三维神经网络
+
+参考文献
+--------
+
+.. bibliography:: ../reference.bib
+   :style: apa

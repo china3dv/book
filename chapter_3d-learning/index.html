@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>2. 三维表达与学习 &#8212; 三维视觉 1.0.0 documentation</title>
+
+    <link rel="stylesheet" href="../_static/material-design-lite-1.3.0/material.blue-deep_orange.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx_materialdesign_theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/fontawesome/all.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/fonts.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/d2l.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/d2l.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="2.1. 总结" href="summary.html" />
+    <link rel="prev" title="1. 主要内容" href="../contents.html" /> 
+  </head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer"><header class="mdl-layout__header mdl-layout__header--waterfall ">
+    <div class="mdl-layout__header-row">
+        
+        <nav class="mdl-navigation breadcrumb">
+            <a class="mdl-navigation__link is-active"><span class="section-number">2. </span>三维表达与学习</a>
+        </nav>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+        
+<form class="form-inline pull-sm-right" action="../search.html" method="get">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+        <label id="quick-search-icon" class="mdl-button mdl-js-button mdl-button--icon"  for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="q"  id="waterfall-exp" placeholder="Search" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </div>
+      </div>
+      <div class="mdl-tooltip" data-mdl-for="quick-search-icon">
+      Quick search
+      </div>
+</form>
+        
+<a id="button-show-source"
+    class="mdl-button mdl-js-button mdl-button--icon"
+    href="../_sources/chapter_3d-learning/index.rst.txt" rel="nofollow">
+  <i class="material-icons">code</i>
+</a>
+<div class="mdl-tooltip" data-mdl-for="button-show-source">
+Show Source
+</div>
+        </nav>
+    </div>
+    <div class="mdl-layout__header-row header-links">
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation">
+          
+              <a  class="mdl-navigation__link" href="https://github.com/wang-ps/3dvision.git">
+                  <i class="fas fa-file-pdf"></i>
+                  PDF
+              </a>
+          
+              <a  class="mdl-navigation__link" href="https://github.com/wang-ps/3dvision.git">
+                  <i class="fab fa-github"></i>
+                  Github
+              </a>
+      </nav>
+    </div>
+</header><header class="mdl-layout__drawer">
+    
+          <!-- Title -->
+      <span class="mdl-layout-title">
+          <a class="title" href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="三维视觉"/>
+          </a>
+      </span>
+    
+    
+      <div class="globaltoc">
+        <span class="mdl-layout-title toc">Table Of Contents</span>
+        
+        
+            
+            <nav class="mdl-navigation">
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../contents.html">1. 主要内容</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. 三维表达与学习</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="summary.html">2.1. 总结</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summary.html#id2">2.2. 参考文献</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        
+        </div>
+    
+</header>
+        <main class="mdl-layout__content" tabIndex="0">
+
+	<script type="text/javascript" src="../_static/sphinx_materialdesign_theme.js "></script>
+    <header class="mdl-layout__drawer">
+    
+          <!-- Title -->
+      <span class="mdl-layout-title">
+          <a class="title" href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="三维视觉"/>
+          </a>
+      </span>
+    
+    
+      <div class="globaltoc">
+        <span class="mdl-layout-title toc">Table Of Contents</span>
+        
+        
+            
+            <nav class="mdl-navigation">
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../contents.html">1. 主要内容</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. 三维表达与学习</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="summary.html">2.1. 总结</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summary.html#id2">2.2. 参考文献</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        
+        </div>
+    
+</header>
+
+    <div class="document">
+        <div class="page-content" role="main">
+        
+  <div class="section" id="chap-3dlearning">
+<span id="id1"></span><h1><span class="section-number">2. </span>三维表达与学习<a class="headerlink" href="#chap-3dlearning" title="Permalink to this heading">¶</a></h1>
+<p>三维数据的理解、生成、仿真和渲染是计算机图形学和计算机视觉的核心任务，在自动驾驶、机器人、虚拟现实、增强现实、元宇宙等应用中发挥着至关重要的作用。
+近些年来，三维深度学习技术在这些任务得到了很好地应用，取得了很好的性能和效果，也带来了巨大的经济效益和社会反响。因而三维深度学习的研究引起了学术界、工业界的极大关注。</p>
+<p>把深度学习技术用于三维数据的处理，首先要解决的问题也是如何表达三维数据。
+在三维表达之上，我们才可以定义神经网络，进行三维形状的理解或者生成。
+本章首先介绍经典的三维表达方法，包括体素、点云、网格等，这些三维表达在图形学以及三维视觉领域被广泛应用，也是三维深度学习的基础。
+然后会介绍在三维深度学习中常用的两种数据结构：八叉树和哈希表。
+这两种数据结构是几十年前就被发明了，同样在各种图形学任务中，比如渲染、碰撞检测等，都有广泛的应用。
+在深度学习时代，它们再一次大放异彩，发挥了重要作用，因此我们有必要对它们进行深入的了解。
+另外，我们还会重点介绍基于全连接神经网络（MLP）的三维表达。
+理论上来说，MLP被称为万能逼近器，可以表达任何函数。
+而三维形状也可以被看做是定义在三维空间上的函数，近些年来MLP也被用于表达三维形状，引起了广泛的关注。
+但是MLP很难表达三维的高频细节，因此我们还会介绍一些增强MLP表达能力的方法，比如位置编码等。
+最后，我们会介绍一个最新的三维表达方法：Instant NGP
+<span id="id2">(<a class="reference internal" href="summary.html#id392" title="Müller, T., Evans, A., Schied, C., &amp; Keller, A. (2022). Instant neural graphics primitives with a multiresolution hash encoding. ACM Trans. Graph. (SIGGRAPH), 41(4).">Müller <em>et al.</em>, 2022</a>)</span>，
+这个方法结合了MLP和哈希表，通过一些巧妙的设计和强大的代码实现，极大地推动了三维表达的能力和效率，也获得了SIGGRAPH
+2022的最佳论文奖，非常有影响力。</p>
+<p>在三维表达基础上，科研人员针对不同的表达和不同的任务，设计了多种三维神经网络，这些神经网络的设计和实现也是三维深度学习的重要内容，也奠定了三维视觉的基础。
+因此，我们会介绍一系列的有代表性的三维神经网络，包括体素神经网络、点云神经网络、稀疏卷积神经网络、三维Transformers等。</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">2.1. 总结</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html#id2">2.2. 参考文献</a></li>
+</ul>
+</div>
+</div>
+
+
+        </div>
+        <div class="side-doc-outline">
+            <div class="side-doc-outline--content"> 
+            </div>
+        </div>
+
+      <div class="clearer"></div>
+    </div><div class="pagenation">
+     <a id="button-prev" href="../contents.html" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" role="botton" accesskey="P">
+         <i class="pagenation-arrow-L fas fa-arrow-left fa-lg"></i>
+         <div class="pagenation-text">
+            <span class="pagenation-direction">Previous</span>
+            <div>1. 主要内容</div>
+         </div>
+     </a>
+     <a id="button-next" href="summary.html" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" role="botton" accesskey="N">
+         <i class="pagenation-arrow-R fas fa-arrow-right fa-lg"></i>
+        <div class="pagenation-text">
+            <span class="pagenation-direction">Next</span>
+            <div>2.1. 总结</div>
+        </div>
+     </a>
+  </div>
+        
+        </main>
+    </div>
+  </body>
+</html>
